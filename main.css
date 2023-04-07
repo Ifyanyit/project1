@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif, 'Roboto';
+}
+
+.max-viewport {
+    min-height: 100vh;
+}
+
+.text-underline {
+    width: 100px;
+    border: 1px solid #ffd282;
+    margin: 0 auto 0 auto;
+}
+
+.about-image,
+#progress {
+    background: url( images/logo7.PNG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#filler {
+    background: url( images/logo12.PNG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ 

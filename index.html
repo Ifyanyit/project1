@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/bootstrapFiles/css/bootstrap.min.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/js/all.js" />
+    <!-- google-font -->
+    <link rel="stylesheet" href="/Roboto/Roboto-BoldItalic.ttf" />
+    <!-- main.css -->
+    <link rel="stylesheet" href="/main.css" />
+    <title>Only Bootstrap</title>
+  </head>
+  <body>
+    <!-- Navigation section starts -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success p-3">
+        <div class="container-fluid">
+          <!-- brand -->
+          <a class="navbar-brand" href="#"><img src="/images/WeCareLogo2.PNG" style="height: 30px; width: 30px" alt=""> WeCare</a>
+          <!-- toggler/button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- links -->
+          <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+            <form class="form-inline" role="search">
+              <!-- or class="form-inline" -->
+              <div class="input-group mx-5">
+                <input
+                class="form-control"
+                type="text"
+                placeholder="Search"
+              />
+              <span class="input-group-addon">
+                <button class="btn btn-outline-warning" type="submit"><i class="fas fa-search fa-sm fa-fw"></i></button>
+              </span>
+              </div>
+              
+              <!-- <button class="btn btn-outline-primary text-white" type="submit">
+                Search
+              </button> -->
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navigation section ends -->
+
+    <!-- banner-section -->
+    <section id="banner" class="bg-dark">
+      <div class="container">
+        <div class="row max-viewport align-items-center">
+          <div class="col-12 col-md-8">
+            <h1 class="text-danger">
+              My first bootstrap site.
+              <small class="text-white"> Hello World</small>
+            </h1>
+            <p class="lead text-warning">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Obcaecati, reprehenderit provident id quod ex dolore praesentium.
+              Est eaque veniam numquam expedita dolores ratione quos quas animi!
+              Saepe facere doloribus sint?
+            </p>
+            <a href="#" class="btn btn-lg btn-primary m-2"> Press Here</a>
+            <a href="#" class="btn btn-lg btn-success m-2"> Press Here</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of banner section -->
+
+    <!-- another slide section starts -->
+    <div id="testimonials" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#testimonials"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#testimonials"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#testimonials"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#testimonials"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg
+            class="bd-placeholder-img"
+            width="100%"
+            height="100%"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <rect width="100%" height="100%" fill="#777" />
+          </svg>
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Example headline.</h1>
+              <p>
+                Some representative placeholder content for the first slide of
+                the carousel.
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#">Sign up today</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg
+            class="bd-placeholder-img"
+            width="100%"
+            height="100%"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <rect width="100%" height="100%" fill="#777" />
+          </svg>
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>
+                Some representative placeholder content for the second slide of
+                the carousel.
+              </p>
+              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg
+            class="bd-placeholder-img"
+            width="100%"
+            height="100%"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <rect width="100%" height="100%" fill="#777" />
+          </svg>
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>One more for good measure.</h1>
+              <p>
+                Some representative placeholder content for the third slide of
+                this carousel.
+              </p>
+              <p>
+                <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- another slide section ends -->
+
+    <!-- skill section -->
+    <section id="skills" class="bg-light p-5">
+      <div class="container">
+        <!-- title -->
+        <div class="row">
+          <div class="col-12 text-center mb-3">
+            <h1>Skills</h1>
+            <div class="text-underline my-2"></div>
+            <p class="text-dark">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <!-- title ends-->
+
+        <div class="row">
+          <div class="col-sm-12 col-md-4 text-center my-3">
+            <i class="fa fa-home fa-5x text-danger my-3" aria-hidden="true"></i>
+            <h1 class="m-1">Home</h1>
+            <p class="text-muted my-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Pariatur, doloremque. Adipisci sunt amet aperiam, eius ad id. Esse
+              dignissimos
+            </p>
+            <a href="#" class="btn btn-outline-warning" role="button"
+              >Learn More</a
+            >
+          </div>
+          <div class="col-sm-12 col-md-4 text-center my-3">
+            <i class="fa fa-bomb fa-5x text-danger my-3" aria-hidden="true"></i>
+            <h1 class="m-1">Bomb</h1>
+            <p class="text-muted my-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Pariatur, doloremque. Adipisci sunt amet aperiam, eius ad id. Esse
+              dignissimos
+            </p>
+            <a href="#" class="btn btn-outline-warning" role="button"
+              >Learn More</a
+            >
+          </div>
+          <div class="col-sm-12 col-md-4 text-center my-3">
+            <i
+              class="fa fa-archive fa-5x text-danger my-3"
+              aria-hidden="true"
+            ></i>
+            <h1 class="m-1">Archive</h1>
+            <p class="text-muted my-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Pariatur, doloremque. Adipisci sunt amet aperiam, eius ad id. Esse
+              dignissimos
+            </p>
+            <a href="#" class="btn btn-outline-warning" role="button"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section ends-->
+
+    <!-- About section starts -->
+    <section id="about" class="bg-info">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div
+            class="col-sm-6 max-viewport about-image order-2 order-sm-1"
+          ></div>
+          <div class="col-sm-6 order-1 order-sm-2">
+            <!-- title -->
+            <div class="row">
+              <div class="col-12 text-center mb-3">
+                <h1>About</h1>
+                <div class="text-underline my-2"></div>
+                <p class="text-dark">Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+            <!-- title ends-->
+            <div class="mt-5">
+              <div class="d-flex mb-2">
+                <i
+                  class="fa fa-check-square text-success bg-dark mx-4 p-2 align-self-center"
+                  aria-hidden="true"
+                ></i>
+                <p class="m-0 text-white">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Repellat, culpa!
+                </p>
+              </div>
+              <div class="d-flex mb-2">
+                <i
+                  class="fa fa-check-square text-success bg-dark mx-4 p-2 align-self-center"
+                  aria-hidden="true"
+                ></i>
+                <p class="m-0 text-white">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Repellat, culpa! Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quisquam, soluta.
+                </p>
+              </div>
+              <div class="d-flex mb-2">
+                <i
+                  class="fa fa-check-square text-success bg-dark mx-4 p-2 align-self-center"
+                  aria-hidden="true"
+                ></i>
+                <p class="m-0 text-white">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Repellat, culpa!
+                </p>
+              </div>
+              <div class="d-flex mb-2">
+                <i
+                  class="fa fa-check-square text-success bg-dark mx-4 p-2 align-self-center"
+                  aria-hidden="true"
+                ></i>
+                <p class="m-0 text-white">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Repellat, culpa! Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quisquam, soluta.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About section ends -->
+    <!-- team section starts -->
+    <section id="team" class="bg-secondary p-5">
+      <div class="conatainer">
+        <!-- title -->
+        <div class="row">
+          <div class="col-12 text-center mb-3">
+            <h1 class="text-danger">Team</h1>
+            <div class="text-underline my-2"></div>
+            <p class="text-dark">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <!-- title ends-->
+        <div class="row">
+          <div class="col-sm-6 col-md-4 my-3">
+            <div class="card">
+              <img src="/images/logo5.PNG" alt="" class="card-img-top" />
+              <div class="card-body">
+                <div class="card-title">
+                  <h3>First team member</h3>
+                </div>
+                <div class="card-text">
+                  <p class="lead text-warning">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolore, officiis voluptates assumenda vitae veritatis quam!
+                  </p>
+                </div>
+                <div class="card-text text-primary text-right">
+                  <a href="#"
+                    ><i class="fab fa-facebook mx-2" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-twitter mx-2" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-linkedin mx-2" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-youtube-square" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 my-3">
+            <div class="card">
+              <img src="/images/Logo12.PNG" alt="" class="card-img-top" />
+              <div class="card-body">
+                <div class="card-title">
+                  <h3>Second team member</h3>
+                </div>
+                <div class="card-text">
+                  <p class="lead text-warning">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolore, officiis voluptates assumenda vitae veritatis quam!
+                  </p>
+                </div>
+                <div class="card-text text-primary text-right">
+                  <a href="#"
+                    ><i class="fab fa-facebook mx-2" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-twitter mx-2" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-linkedin mx-2" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-youtube-square" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 my-3">
+            <div class="card">
+              <img src="/images/logo7.PNG" alt="" class="card-img-top" />
+              <div class="card-body">
+                <div class="card-title">
+                  <h3>Third team member</h3>
+                </div>
+                <div class="card-text">
+                  <p class="lead text-warning">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolore, officiis voluptates assumenda vitae veritatis quam!
+                  </p>
+                </div>
+                <div class="card-text text-primary text-right">
+                  <a href="#"
+                    ><i class="fab fa-facebook mx-2" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-twitter mx-2" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-linkedin mx-2" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-youtube-square" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 my-3">
+            <div class="card">
+              <img src="/images/logo11.PNG" alt="" class="card-img-top" />
+              <div class="card-body">
+                <div class="card-title">
+                  <h3>Fouth team member</h3>
+                </div>
+                <div class="card-text">
+                  <p class="lead text-warning">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolore, officiis voluptates assumenda vitae veritatis quam!
+                  </p>
+                </div>
+                <div class="card-text text-primary text-right">
+                  <a href="#"
+                    ><i class="fab fa-facebook mx-2" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-twitter mx-2" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-linkedin mx-2" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-youtube-square" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 my-3">
+            <div class="card">
+              <img src="/images/LogoMarkup2.PNG" alt="" class="card-img-top" />
+              <div class="card-body">
+                <div class="card-title">
+                  <h3>First team member</h3>
+                </div>
+                <div class="card-text">
+                  <p class="lead text-warning">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolore, officiis voluptates assumenda vitae veritatis quam!
+                  </p>
+                </div>
+                <div class="card-text text-primary text-right">
+                  <a href="#"
+                    ><i class="fab fa-facebook mx-2" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-twitter mx-2" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-linkedin mx-2" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fab fa-youtube-square" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- team section ends -->
+
+    <!-- testimonials section starts -->
+    <section id="testimonials" class="p-5 bg-dark">
+      <div class="container">
+        <!-- title -->
+        <div class="row">
+          <div class="col-12 text-center mb-3">
+            <h1 class="text-danger">Testimonials</h1>
+            <div class="text-underline my-2"></div>
+            <p class="text-white">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <!-- title ends-->
+
+        <div class="row">
+          <div class="col-12 col-md-6 mx-auto">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+              <!-- slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                  <img
+                    src="/images/mediamodifier_image.jpeg"
+                    alt=""
+                    class="img-fluid rounded-circle m-3"
+                    width="150px"
+                  />
+                  <h1 class="text-danger">Customer</h1>
+                  <blockquote class="blockquote text-white">
+                    <p>
+                      <i class="fas fa-quote-left"
+                        >amet consectetur adipisicing elit. Cum,
+                        consequuntur!</i
+                      >
+                    </p>
+                    <footer class="blockquote-footer">Customer name</footer>
+                  </blockquote>
+                </div>
+                <div class="carousel-item text-center">
+                  <img
+                    src="/images/logo13.PNG"
+                    alt=""
+                    class="img-fluid rounded-circle m-3"
+                    width="150px"
+                  />
+                  <h1 class="text-danger">Customer</h1>
+                  <blockquote class="blockquote text-white">
+                    <p>
+                      <i class="fas fa-quote-left"
+                        >Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Cum, consequuntur!</i
+                      >
+                    </p>
+                    <footer class="blockquote-footer">Customer name</footer>
+                  </blockquote>
+                </div>
+                <div class="carousel-item text-center">
+                  <img
+                    src="/images/logo11.PNG"
+                    alt=""
+                    class="img-fluid rounded-circle m-3"
+                    width="150px"
+                  />
+                  <h1 class="text-danger">Customer</h1>
+                  <blockquote class="blockquote text-white">
+                    <p>
+                      <i class="fas fa-quote-left"
+                        >Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Cum, consequuntur!</i
+                      >
+                    </p>
+                    <footer class="blockquote-footer">Customer name</footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonials section ends -->
+
+    <!-- filler section starts -->
+    <section id="filler" class="p-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-6 mx-auto text-center">
+            <h1 class="text-primary">
+              My first bootstrap site.
+              <!-- <small class="text-white"> Hello World</small> -->
+            </h1>
+            <p class="lead text-warning">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Obcaecati, reprehenderit dolores ratione quos quas animi! Saepe
+              facere doloribus sint?
+            </p>
+
+            <a href="#" class="btn btn-lg btn-success m-2"> Press Here</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- filler section ends -->
+
+    <!-- project section starts-->
+    <section class="p-5 bg-light" id="project">
+      <div class="container">
+        <!-- title -->
+        <div class="row">
+          <div class="col-12 text-center mb-3">
+            <h1>Projects</h1>
+            <div class="text-underline my-2"></div>
+            <p class="text-dark">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <!-- title ends-->
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <img
+              src="/images/Logo5.PNG"
+              alt="phone image"
+              class="img-fluid img-thumbnail"
+            />
+            <h2 class="my-3 text-warning">Project 1</h2>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+              illum? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Deleniti, facere?
+            </p>
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <img
+              src="/images/Logo13.PNG"
+              alt="phone image"
+              class="img-fluid img-thumbnail"
+            />
+            <h2 class="my-3 text-warning">Project 2</h2>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+              illum? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Deleniti, facere?
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              src="/images/Logo7.PNG"
+              alt="phone image"
+              class="img-fluid img-thumbnail"
+            />
+            <h2 class="my-3 text-warning">Project 3</h2>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+              illum? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Deleniti, facere?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- project section ends -->
+
+    <!-- Contact section starts -->
+    <section id="contact" class="p-5 bg-success">
+      <div class="container">
+        <!-- title -->
+        <div class="row">
+          <div class="col-12 text-center mb-3">
+            <h1>Contact Us</h1>
+            <div class="text-underline my-2"></div>
+            <p class="text-dark">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <!-- title ends-->
+        <div class="row">
+          <div class="col-md-6 my-3">
+            <div class="card card-body bg-secondary">
+              <div class="card-title text-center text-white">
+                <h2>New to Web App?</h2>
+                <p>New user Sign Up</p>
+                <hr />
+              </div>
+              <form action="" class="form-group mt-3">
+                <input
+                  type="text"
+                  class="form-control mb-1"
+                  id="name"
+                  placeholder="Name"
+                />
+                <input
+                  type="email"
+                  class="form-control mb-1"
+                  id="email"
+                  placeholder="Email"
+                />
+                <input
+                  type="tel"
+                  class="form-control mb-2"
+                  id="phone"
+                  placeholder="Phone"
+                />
+                <button type="submit" class="btn btn-outline-dark w-100">
+                  SIGN UP FOR WEB APP
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 my-3">
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe
+              class="embed-responisive-item"
+              src="/images/mediamodifier_image.jpeg"
+              width="350"
+              height="350"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen
+              >Google map link placed here </iframe
+            >Map Here
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section ends -->
+
+    <!-- Testimonial 2 starts -->
+
+    <section id="testimonials" class="p-5 bg-danger">
+      <div class="container">
+        <!-- title -->
+        <div class="row">
+          <div class="col-12 text-center mb-3">
+            <h1 class="text-dark">Testimonials 2</h1>
+            <div class="text-underline my-2"></div>
+            <p class="text-dark">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <!-- title ends-->
+        <div class="row align-items-center">
+          <div class="col-sm-6">
+            <img
+              src="/images/logo5.PNG"
+              alt="testimonials"
+              class="img-fluid rounded-circle d-none d-sm-block"
+            />
+            <div class="col-sm-6">
+              <blockquote class="blockquote text-right">
+                <p>
+                  <i class="fa fa-quote-left" aria-hidden="true">
+                    Lorem ipsum dolor sit amet consectetur adipisicing.</i
+                  >
+                </p>
+                <footer class="blockquote-footer">name</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial 2 ends -->
+
+    <!-- progress section starts -->
+    <section id="progress" class="p-5">
+      <div class="container">
+        <!-- title --> 
+        <div class="row">
+          <div class="col-12 text-center mb-3">
+            <h1 class="text-dark">Progress Bar</h1>
+            <div class="text-underline my-2"></div>
+            <p class="text-dark">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <!-- title ends-->
+        <div class="ro align-items-center">
+          <div class="col-12 colmd-6 mx-auto">
+            <h1 class="text-white">HTML</h1>
+            <div class="progress bg-secondary">
+              <div class="progress-bar bg-success" style="width: 80%"></div>
+            </div>
+            <h1 class="text-white">CSS</h1>
+            <div class="progress bg-secondary">
+              <div class="progress-bar bg-warning" style="width: 60%"></div>
+            </div>
+            <h1 class="text-white">JavaScript</h1>
+            <div class="progress bg-secondary">
+              <div class="progress-bar bg-danger" style="width: 70%"></div>
+            </div>
+            <h1 class="text-white">Bootstrap</h1>
+            <div class="progress bg-secondary">
+              <div class="progress-bar bg-primary" style="width: 90%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- progress section ends -->
+
+    <!-- Pricing section starts -->
+    <section id="prices" class="p-5">
+      <div class="container">
+        <!-- title -->
+        <div class="row">
+          <div class="col-12 text-center mb-3">
+            <h1 class="text-dark">Prices</h1>
+            <div class="text-underline my-2"></div>
+            <p class="text-dark">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <!-- title ends-->
+        <div class="row">
+          <div class="col-md-4 my-4">
+            <div class="list-group text-center">
+              <div class="list-group-item text-white bg-primary">
+                <h1 class="p-2">Basic</h1>
+              </div>
+              <div class="list-group-item text-uppercase font-weight-bold">
+                FREE
+              </div>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action text-warning"
+                >Mail Server</a
+              >
+              <a
+                href="#"
+                class="list-group-item list-group-item-action text-warning"
+                >Web Server</a
+              >
+              <a
+                href="#"
+                class="list-group-item list-group-item-action text-warning"
+                >DNS Hosting</a
+              >
+              <div class="list-group-item">
+                <button
+                  type="button"
+                  name=""
+                  id=""
+                  class="btn btn-primary btn-lg btn-block text-capitalize w-100"
+                >
+                  Sign-up
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="list-group text-center">
+              <div class="list-group-item text-white bg-primary">
+                <h1 class="p-2">Standard</h1>
+              </div>
+              <div class="list-group-item text-uppercase font-weight-bold">
+                <h1>$ 10 / month</h1>
+              </div>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action text-warning"
+                >Mail Server</a
+              >
+              <a
+                href="#"
+                class="list-group-item list-group-item-action text-warning"
+                >Web Server</a
+              >
+              <a
+                href="#"
+                class="list-group-item list-group-item-action text-warning"
+                >DNS Hoisting</a
+              ><a
+                href="#"
+                class="list-group-item list-group-item-action text-warning"
+                >DataBase</a
+              ><a
+                href="#"
+                class="list-group-item list-group-item-action text-warning"
+                >Support Desk 24/7</a
+              >
+              <div class="list-group-item">
+                <button
+                  type="button"
+                  name=""
+                  id=""
+                  class="btn btn-primary btn-lg btn-block text-capitalize w-100"
+                >
+                  Sign-up
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 my-4">
+            <div class="list-group text-center">
+              <div class="list-group-item text-white bg-primary">
+                <h1 class="p-2">Pro</h1>
+              </div>
+              <div class="list-group-item text-uppercase font-weight-bold">
+                $ 100/ MONTH
+              </div>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action text-warning"
+                >Mail Server<span class="float-right">
+                  <i class="fa fa-star" aria-hidden="true"></i> </span
+              ></a>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action text-warning"
+                >DataBase<span class="float-right">
+                  <i class="fa fa-star" aria-hidden="true"></i> </span
+              ></a>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action text-warning"
+                >Support Desk 24/7<span class="float-right">
+                  <i class="fa fa-star" aria-hidden="true"></i> </span
+              ></a>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action text-warning"
+                >Web Server<span class="float-right">
+                  <i class="fa fa-star" aria-hidden="true"></i> </span
+              ></a>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action text-warning"
+                >DNS Hosting
+                <span class="float-right">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </span>
+              </a>
+              <div class="list-group-item">
+                <button
+                  type="button"
+                  name=""
+                  id=""
+                  class="btn btn-primary btn-lg btn-block text-capitalize w-100"
+                >
+                  Sign-up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing section ends -->
+
+    <!-- footer section starts -->
+    <section id="footer" class="bg-dark">
+      <div class="container">
+        <!-- title -->
+        <div class="row">
+          <div class="col-12 text-center mb-3">
+            <h1 class="text-white">Prices</h1>
+            <div class="text-underline my-2"></div>
+            <p class="text-white">Lorem ipsum dolor sit.</p>
+          </div>
+        </div>
+        <!-- title ends-->
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="#" class="btn text-primary">
+              <i class="fab fa-twitter-square fa-3x" aria-hidden="true"></i>
+            </a>
+            <a href="#" class="btn text-primary">
+              <i class="fab fa-facebook-square fa-3x"></i
+            ></a>
+            <a href="#" class="btn text-primary"
+              ><i class="fab fa-linkedin-in fa-3x"></i
+            ></a>
+          </a>
+          <a href="#" class="btn text-primary"
+            ><i class="fab fa-instagram fa-3x"></i
+          ></a>
+          </div>
+          <p class="mt-3 mb-5 text-center text-white">&copy; WeCare Africa, 2023</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section endss -->
+
+    <script src="/bootstrapFiles/jquery-3.6.4.min.js"></script>
+    <script src="/bootstrapFiles/js/bootstrap.min.js"></script>
+  </body>
+</html>
